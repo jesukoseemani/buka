@@ -342,12 +342,13 @@ img {
   top: 50%;
   left: 50%;
   transform: translateX(0%);
-  color: rgb(12, 12, 12);
+  color: black;
   opacity: 0;
   transition: all 1s;
   z-index: 100;
-  font-weight: bold;
+  font-weight: 900;
   letter-spacing: 1rem;
+  font-size: 2rem;
 }
 
 .pictures__griditems:hover .pictures_p {
@@ -416,7 +417,7 @@ img {
 .works-link a {
   display: inline-block;
   margin-right: 2rem;
-  height: 6.4rem;
+  /* height: 6.4rem; */
   width: 16rem;
 }
 
@@ -1463,6 +1464,10 @@ footer {
   .btn-features {
     /* margin: 2rem 3rem; */
     padding: 2rem 2rem;
+  }
+
+  .pictures_p {
+    display: none;
   }
 
   /* .works__flex-left{
