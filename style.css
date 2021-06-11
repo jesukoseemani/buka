@@ -149,6 +149,7 @@ img {
   animation: moveInRight 1s ease;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  
 }
 
 .hero__links {
